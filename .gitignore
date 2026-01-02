@@ -1,0 +1,15 @@
+# Build artifacts
+*.obj
+*.exe
+*.pch
+*.res
+*.lib
+*.exp
+*.pdb
+*.ilk
+
+# Ignore build output directories
+CPP/7zip/UI/GUI/x64/
+
+# Specific files
+编译命令.txt

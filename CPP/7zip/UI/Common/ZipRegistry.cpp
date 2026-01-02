@@ -254,7 +254,7 @@ void Delete_PasswordHistory(const UString &password)
 
   CS_LOCK
   CKey key;
-  if (OpenMainKey(key, kKeyName) != ERROR_SUCCESS)
+  if (CreateMainKey(key, kKeyName) != ERROR_SUCCESS)
     return;
 
   UStringVector passwords;
